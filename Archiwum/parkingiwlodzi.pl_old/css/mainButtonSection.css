@@ -1,0 +1,20 @@
+.btn {
+    color: black;
+    background-color: orange;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    float: left;
+}
+
+.mybtn {
+    background-color: orange;
+}
+
+.mainButtonSection {
+    width: 100%;
+    height: 20vh;
+    background-color: #fd0000d7;
+}

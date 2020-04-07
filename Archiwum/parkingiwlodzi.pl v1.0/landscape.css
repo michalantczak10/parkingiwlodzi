@@ -1,0 +1,307 @@
+@media (orientation: landscape) {
+    body {
+        background-color: #20252B;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Oswald';
+        font-weight: 400;
+        color: #F7CA00;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 7vmin;
+    }
+
+    h2 {
+        font-size: 5vmin;
+    }
+
+    h3 {
+        position: relative;
+        font-size: 2vmin;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    p {
+        font-size: 3vmin;
+    }
+
+    li {
+        font-size: 2vmin;
+    }
+
+    img {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 16vh;
+        width: 96vw;
+    }
+
+    #przycisk_o_firmie {
+        background: url("pojazd1.svg") no-repeat;
+        background-color: #F7CA00;
+        background-size: 11vmin;
+        background-position: 95%;
+    }
+
+    #przycisk_o_firmie:hover {
+        background: url("pojazd1.svg") no-repeat;
+        background-color: #913eaa;
+        background-size: 11vmin;
+        background-position: 95%;
+    }
+
+    #offerButton {
+        background: url("pojazd2.svg") no-repeat;
+        background-color: #F7CA00;
+        background-size: 11vmin;
+        background-position: 95%;
+    }
+
+    #offerButton:hover {
+        background: url("pojazd2.svg") no-repeat;
+        background-color: #913eaa;
+        background-size: 11vmin;
+        background-position: 95%;
+    }
+
+    #przycisk_cennik {
+        background: url("pojazd3.svg") no-repeat;
+        background-color: #F7CA00;
+        background-size: 11vmin;
+        background-position: 95%;
+    }
+
+    #przycisk_cennik:hover {
+        background: url("pojazd3.svg") no-repeat;
+        background-size: 11vmin;
+        background-color: #913eaa;
+        background-position: 95%;
+    }
+
+    #przycisk_kontakt {
+        background: url("pojazd4.svg") no-repeat;
+        background-color: #F7CA00;
+        background-size: 11vmin;
+        background-position: 95%;
+    }
+
+    #przycisk_kontakt:hover {
+        background: url("pojazd4.svg") no-repeat;
+        background-size: 11vmin;
+        background-color: #913eaa;
+        background-position: 95%;
+    }
+
+    #przycisk_dojazd {
+        background: url("pojazd5.svg") no-repeat;
+        background-color: #F7CA00;
+        background-size: 11vmin;
+        background-position: 95%;
+    }
+
+    #przycisk_dojazd:hover {
+        background: url("pojazd5.svg") no-repeat;
+        background-size: 11vmin;
+        background-color: #913eaa;
+        background-position: 95%;
+    }
+
+    #przycisk_wspolpraca {
+        background: url("pojazd6.svg") no-repeat;
+        background-color: #F7CA00;
+        background-size: 11vmin;
+        background-position: 95%;
+    }
+
+    #przycisk_wspolpraca:hover {
+        background: url("pojazd6.svg") no-repeat;
+        background-size: 11vmin;
+        background-color: #913eaa;
+        background-position: 95%;
+    }
+
+    .icon {
+        width: 8vmin;
+        height: 8vmin;
+        background-position: center;
+        background-size: 80%;
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-image: url("iconButton.svg");
+        float: left;
+    }
+
+    .title {
+        float: left;
+        color: #20252B;
+        width: auto;
+    }
+
+    #o_firmie {
+        display: block;
+        background: url("pojazd1_tlo.svg");
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        text-align: justify;
+    }
+
+    #oferta {
+        display: none;
+        background: url("pojazd2_tlo.svg");
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        text-align: justify;
+    }
+
+    #cennik {
+        display: none;
+        background: url("pojazd3_tlo.svg");
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        text-align: justify;
+    }
+
+    #kontakt {
+        display: none;
+        background: url("pojazd4_tlo.svg");
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        text-align: justify;
+    }
+
+    #dojazd {
+        display: none;
+        background: url("pojazd5_tlo.svg");
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        text-align: justify;
+    }
+
+    #wspolpraca {
+        display: none;
+        background: url("pojazd6_tlo.svg");
+        background-position: center;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        text-align: justify;
+    }
+
+    iframe {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+
+    .additionalButton {
+        display: none;
+    }
+
+    header {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0vh;
+        bottom: 80vh;
+        width: 100vw;
+        height: 20vh;
+        padding: 2vmin;
+        text-align: justify;
+        background: #20252B;
+    }
+
+    main {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 20vh;
+        bottom: 10vh;
+        height: 70vh;
+        padding: 2vmin;
+        background: #20252B;
+    }
+
+    footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 90vh;
+        bottom: 0;
+        height: 10vh;
+        padding: 2vmin;
+        text-align: center;
+        color: #F7CA00;
+        background: #20252B;
+    }
+
+    nav {
+        position: absolute;
+        left: 0;
+        max-width: 50vmin;
+        top: 0;
+        bottom: 0;
+        padding: 0vmin;
+        padding-top: 2vmin;
+        padding-left: 2vmin;
+        padding-right: 1vmin;
+        background: #20252B;
+        overflow: auto;
+    }
+
+    article {
+        position: absolute;
+        left: 50vmin;
+        right: 0vmin;
+        top: 0vmin;
+        bottom: 0vmin;
+        padding: 0vmin;
+        padding-top: 2vmin;
+        padding-right: 3vmin;
+        padding-left: 3vmin;
+        margin-top: 2vmin;
+        overflow-y: auto;
+        color: #F7CA00;
+        background: #20252B;
+    }
+
+    button {
+        display: block;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        background: #F7CA00;
+        margin-bottom: 1vmin;
+        width: 49vmin;
+        height: 10vh;
+        padding-left: 1vmin;
+        padding-right: 2vmin;
+        font-size: 5vmin;
+        color: #20252B;
+    }
+
+    button:hover {
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 1vmin;
+        padding-left: 2vmin;
+        padding-right: 2vmin;
+        width: 49vmin;
+        height: 10vh;
+        font-size: 5vmin;
+        color: #20252B;
+        background: #913eaa;
+    }
+}

@@ -1,0 +1,9 @@
+.mainNav {
+  position: absolute;
+  left: 2vw;
+  right: 51vw;
+  top: 20vh;
+  bottom:20vh;
+  background-color: rgb(190, 66, 66);
+}
+

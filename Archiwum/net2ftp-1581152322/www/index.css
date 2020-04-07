@@ -1,0 +1,809 @@
+    html,
+    body {
+        background-color: #20252B;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Oswald';
+        font-weight: 400;
+        color: #F7CA00;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 7vmin;
+    }
+
+    h2 {
+        font-size: 5vmin;
+    }
+
+    h3 {
+        font-size: 2vmin;
+        position: relative;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: default;
+    }
+
+    p {
+        font-size: 3vmin;
+    }
+
+    li {
+        font-size: 2vmin;
+    }
+
+    img {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 16vh;
+        width: 96vw;
+    }
+
+    iframe {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+
+    .icon {
+        width: 8vmin;
+        height: 8vmin;
+        background-position: center;
+        background-size: 80%;
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-image: url("iconButton.svg");
+        float: left;
+    }
+
+    .title {
+        float: left;
+        color: #20252B;
+        width: auto;
+    }
+
+    header {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 2vmin;
+        height: 20vh;
+        width: 100vw;
+        text-align: justify;
+        background: #20252B;
+    }
+
+    main {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 20vh;
+        bottom: 10vh;
+        padding: 1vmin;
+        background: #20252B;
+    }
+
+    footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 90vh;
+        bottom: 0;
+        padding: 1vmin;
+        text-align: center;
+        background: #20252B;
+    }
+
+    @media (orientation: landscape) {
+
+        #przycisk_o_firmie {
+            background: url("pojazd1.svg") no-repeat;
+            background-color: #F7CA00;
+            background-size: 10vmin;
+            background-position: 95%;
+            display: block;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1vmin;
+            width: 49vmin;
+            height: 10vh;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_o_firmie:hover {
+            background: url("pojazd1.svg") no-repeat;
+            background-color: #913eaa;
+            background-size: 10vmin;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1vmin;
+            padding-left: 2vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 49vmin;
+            height: 10vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #offerButton {
+            background: url("pojazd2.svg") no-repeat;
+            background-color: #F7CA00;
+            background-size: 10vmin;
+            background-position: 95%;
+            display: block;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1vmin;
+            width: 49vmin;
+            height: 10vh;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #offerButton:hover {
+            background: url("pojazd2.svg") no-repeat;
+            background-color: #913eaa;
+            background-size: 10vmin;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1vmin;
+            padding-left: 2vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 49vmin;
+            height: 10vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_cennik {
+            background: url("pojazd3.svg") no-repeat;
+            background-color: #F7CA00;
+            background-size: 10vmin;
+            background-position: 95%;
+            display: block;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1vmin;
+            width: 49vmin;
+            height: 10vh;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_cennik:hover {
+            background: url("pojazd3.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #913eaa;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1vmin;
+            padding-left: 2vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 49vmin;
+            height: 10vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_kontakt {
+            background: url("pojazd4.svg") no-repeat;
+            background-color: #F7CA00;
+            background-size: 10vmin;
+            background-position: 95%;
+            display: block;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1vmin;
+            width: 49vmin;
+            height: 10vh;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_kontakt:hover {
+            background: url("pojazd4.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #913eaa;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1vmin;
+            padding-left: 2vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 49vmin;
+            height: 10vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_dojazd {
+            background: url("pojazd5.svg") no-repeat;
+            background-color: #F7CA00;
+            background-size: 10vmin;
+            background-position: 95%;
+            display: block;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1vmin;
+            width: 49vmin;
+            height: 10vh;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_dojazd:hover {
+            background: url("pojazd5.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #913eaa;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1vmin;
+            padding-left: 2vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 49vmin;
+            height: 10vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_wspolpraca {
+            background: url("pojazd6.svg") no-repeat;
+            background-color: #F7CA00;
+            background-size: 10vmin;
+            background-position: 95%;
+            display: block;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1vmin;
+            width: 49vmin;
+            height: 10vh;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_wspolpraca:hover {
+            background: url("pojazd6.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #913eaa;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1vmin;
+            padding-left: 2vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 49vmin;
+            height: 10vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #o_firmie {
+            display: block;
+            background: url("pojazd1_tlo.svg");
+            background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        #oferta {
+            display: none;
+            background: url("pojazd2_tlo.svg");
+            background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        #cennik {
+            display: none;
+            background: url("pojazd3_tlo.svg");
+            background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        #kontakt {
+            display: none;
+            background: url("pojazd4_tlo.svg");
+            background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        #dojazd {
+            display: none;
+            background: url("pojazd5_tlo.svg");
+            background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        #wspolpraca {
+            display: none;
+            background: url("pojazd6_tlo.svg");
+            background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        .additionalButton {
+            display: none;
+        }
+
+        nav {
+            position: absolute;
+            left: 0;
+            max-width: 50vmin;
+            top: 0;
+            bottom: 0;
+            padding: 0vmin;
+            padding-top: 2vmin;
+            padding-left: 2vmin;
+            padding-right: 1vmin;
+            background: #20252B;
+            overflow: auto;
+        }
+
+        article {
+            position: absolute;
+            left: 50vmin;
+            right: 0vmin;
+            top: 0vmin;
+            bottom: 0vmin;
+            padding: 0vmin;
+            padding-top: 2vmin;
+            padding-right: 1vmin;
+            padding-left: 2vmin;
+            margin-top: 2vmin;
+            overflow: auto;
+            color: #F7CA00;
+            background: #20252B;
+            cursor: default;
+        }
+    }
+
+    @media (orientation: portrait) {
+
+        #przycisk_o_firmie {
+            background: url("pojazd1.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #F7CA00;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_o_firmie:hover {
+            background: url("pojazd1.svg") no-repeat;
+            background-color: #913eaa;
+            background-size: 10vmin;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 2vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #offerButton {
+            background: url("pojazd2.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #F7CA00;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #offerButton:hover {
+            background: url("pojazd2.svg") no-repeat;
+            background-color: #913eaa;
+            background-size: 10vmin;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 2vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_cennik {
+            background: url("pojazd3.svg") no-repeat;
+            background-color: #F7CA00;
+            background-size: 10vmin;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_cennik:hover {
+            background: url("pojazd3.svg") no-repeat;
+            background-color: #913eaa;
+            background-size: 10vmin;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 2vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_kontakt {
+            background: url("pojazd4.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #F7CA00;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_kontakt:hover {
+            background: url("pojazd4.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #913eaa;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 2vmin;
+            padding-right: 1vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_dojazd {
+            background: url("pojazd5.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #F7CA00;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_dojazd:hover {
+            background: url("pojazd5.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #913eaa;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 2vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_wspolpraca {
+            background: url("pojazd6.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #F7CA00;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #przycisk_wspolpraca:hover {
+            background: url("pojazd6.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #913eaa;
+            padding: 1vmin;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 2vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        .additionalButton {
+            display: block;
+            background: url("strzalka.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #F7CA00;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 1vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        .additionalButton:hover {
+            display: block;
+            background: url("strzalka.svg") no-repeat;
+            background-size: 10vmin;
+            background-color: #913eaa;
+            background-position: 95%;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 1.5vmin;
+            padding-left: 2vmin;
+            padding-right: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            width: 100%;
+            height: 9.2vh;
+            font-size: 5vmin;
+            color: #20252B;
+            cursor: default;
+        }
+
+        #o_firmie {
+            display: none;
+            background: url("pojazd1_tlo.svg");
+            background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        #oferta {
+            display: none;
+            background: url("pojazd2_tlo.svg");
+            background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        #cennik {
+            display: none;
+            background: url("pojazd3_tlo.svg");
+            background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        #kontakt {
+            display: none;
+            background: url("pojazd4_tlo.svg");
+            background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        #dojazd {
+            display: none;
+            background: url("pojazd5_tlo.svg");
+            background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        #wspolpraca {
+            display: none;
+            background: url("pojazd6_tlo.svg");
+            background-position: center;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        nav {
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 0%;
+            bottom: 0;
+            padding: 2vmin;
+            width: 96vmin;
+            float: left;
+            overflow: auto;
+            background: #20252B;
+            overflow: auto;
+        }
+
+        article {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 96vmin;
+            padding: 2vmin;
+            margin-top: 2vmin;
+            float: left;
+            overflow: auto;
+            background: #20252B;
+            cursor: default;
+        }
+
+    }

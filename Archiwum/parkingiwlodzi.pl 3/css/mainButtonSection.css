@@ -1,0 +1,28 @@
+button.offerButton {
+    width: 100%;
+    height: 60%;
+    float: left;
+    background-color: rgb(122, 52, 52);
+}
+
+
+button.priceListButton {
+    width: 100%;
+    height: 60%;
+    float: left;
+    background-color: rgb(173, 95, 95);
+}
+
+button.driveButton {
+    width: 100%;
+    height: 60%;
+    float: left;
+    background-color: rgb(121, 61, 61);
+}
+
+button.contactButton {
+    width: 100%;
+    height: 60%;
+    float: left;
+    background-color: rgb(175, 88, 88);
+}
