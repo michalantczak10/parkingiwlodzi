@@ -1,180 +1,180 @@
 function WeryfikacjaUstawieniaEkranu() {
     "use strict";
     if (window.matchMedia("(orientation:landscape)").matches) {
-        $("#aboutUsArticle").show("slow");
-        $("#offerArticle").hide("slow");
-        $("#priceListArticle").hide("slow");
-        $("#contactArticle").hide("slow");
-        $("#driveArticle").hide("slow");
-        $("#cooperativeArticle").hide("slow");
+        $("#o_firmie").show("slow");
+        $("#oferta").hide("slow");
+        $("#cennik").hide("slow");
+        $("#kontakt").hide("slow");
+        $("#dojazd").hide("slow");
+        $("#wspolpraca").hide("slow");
         $("nav").show("slow");
-        $(".additionalButton").hide("slow");
+        $(".przycisk_menu").hide("slow");
     } else {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").hide("slow");
-        $("#priceListArticle").hide("slow");
-        $("#contactArticle").hide("slow");
-        $("#driveArticle").hide("slow");
-        $("#cooperativeArticle").hide("slow");
+        $("#o_firmie").hide("slow");
+        $("#oferta").hide("slow");
+        $("#cennik").hide("slow");
+        $("#kontakt").hide("slow");
+        $("#dojazd").hide("slow");
+        $("#wspolpraca").hide("slow");
         $("nav").show("slow");
-        $(".menuButton").show("slow");
+        $(".przycisk_menu").show("slow");
     }
 }
 
 $(document).ready(function () {
-    $("#aboutUsButton").click(function () {
+    $("#przycisk_o_firmie").click(function () {
         if (window.matchMedia("(orientation:landscape)").matches) {
-            $("#aboutUsArticle").show("slow");
-            $("#offerArticle").hide("slow");
-            $("#priceListArticle").hide("slow");
-            $("#contactArticle").hide("slow");
-            $("#driveArticle").hide("slow");
-            $("#cooperativeArticle").hide("slow");
+            $("#o_firmie").show("slow");
+            $("#oferta").hide("slow");
+            $("#cennik").hide("slow");
+            $("#kontakt").hide("slow");
+            $("#dojazd").hide("slow");
+            $("#wspolpraca").hide("slow");
             $("nav").show("slow");
-            $(".additionalButton").hide("slow");
+            $(".przycisk_menu").hide("slow");
         } else {
-            $("#aboutUsArticle").show("slow");
-            $("#offerArticle").hide("slow");
-            $("#priceListArticle").hide("slow");
-            $("#contactArticle").hide("slow");
-            $("#driveArticle").hide("slow");
-            $("#cooperativeArticle").hide("slow");
+            $("#o_firmie").show("slow");
+            $("#oferta").hide("slow");
+            $("#cennik").hide("slow");
+            $("#kontakt").hide("slow");
+            $("#dojazd").hide("slow");
+            $("#wspolpraca").hide("slow");
             $("nav").hide("slow");
-            $(".menuButton").show("slow");
+            $(".przycisk_menu").show("slow");
         }
 
     });
 
-$("#offerButton").click(function () {
-    if (window.matchMedia("(orientation:landscape)").matches) {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").show("slow");
-        $("#priceListArticle").hide("slow");
-        $("#contactArticle").hide("slow");
-        $("#driveArticle").hide("slow");
-        $("#cooperativeArticle").hide("slow");
-        $("nav").show("slow");
-        $(".additionalButton").hide("slow");
-    } else {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").show("slow");
-        $("#priceListArticle").hide("slow");
-        $("#contactArticle").hide("slow");
-        $("#driveArticle").hide("slow");
-        $("#cooperativeArticle").hide("slow");
-        $("nav").hide("slow");
-        $(".menuButton").show("slow");
-    }
-});
+    $("#przycisk_oferta").click(function () {
+        if (window.matchMedia("(orientation:landscape)").matches) {
+            $("#o_firmie").hide("slow");
+            $("#oferta").show("slow");
+            $("#cennik").hide("slow");
+            $("#kontakt").hide("slow");
+            $("#dojazd").hide("slow");
+            $("#wspolpraca").hide("slow");
+            $("nav").show("slow");
+            $(".przycisk_menu").hide("slow");
+        } else {
+            $("#o_firmie").hide("slow");
+            $("#oferta").show("slow");
+            $("#cennik").hide("slow");
+            $("#kontakt").hide("slow");
+            $("#dojazd").hide("slow");
+            $("#wspolpraca").hide("slow");
+            $("nav").hide("slow");
+            $(".przycisk_menu").show("slow");
+        }
+    });
 
-$("#priceListButton").click(function () {
-    if (window.matchMedia("(orientation:landscape)").matches) {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").hide("slow");
-        $("#priceListArticle").show("slow");
-        $("#contactArticle").hide("slow");
-        $("#driveArticle").hide("slow");
-        $("#cooperativeArticle").hide("slow");
-        $("nav").show("slow");
-        $(".menuButton").hide("slow");
-    } else {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").hide("slow");
-        $("#priceListArticle").show("slow");
-        $("#contactArticle").hide("slow");
-        $("#driveArticle").hide("slow");
-        $("#cooperativeArticle").hide("slow");
-        $("nav").hide("slow");
-        $(".menuButton").show("slow");
-    }
-});
+    $("#przycisk_cennik").click(function () {
+        if (window.matchMedia("(orientation:landscape)").matches) {
+            $("#o_firmie").hide("slow");
+            $("#oferta").hide("slow");
+            $("#cennik").show("slow");
+            $("#kontakt").hide("slow");
+            $("#dojazd").hide("slow");
+            $("#wspolpraca").hide("slow");
+            $("nav").show("slow");
+            $(".przycisk_menu").hide("slow");
+        } else {
+            $("#o_firmie").hide("slow");
+            $("#oferta").hide("slow");
+            $("#cennik").show("slow");
+            $("#kontakt").hide("slow");
+            $("#dojazd").hide("slow");
+            $("#wspolpraca").hide("slow");
+            $("nav").hide("slow");
+            $(".przycisk_menu").show("slow");
+        }
+    });
 
-$("#contactButton").click(function () {
-    if (window.matchMedia("(orientation:landscape)").matches) {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").hide("slow");
-        $("#priceListArticle").hide("slow");
-        $("#contactArticle").show("slow");
-        $("#driveArticle").hide("slow");
-        $("#cooperativeArticle").hide("slow");
-        $("nav").show("slow");
-        $(".menuButton").hide("slow");
-    } else {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").hide("slow");
-        $("#priceListArticle").hide("slow");
-        $("#contactArticle").show("slow");
-        $("#driveArticle").hide("slow");
-        $("#cooperativeArticle").hide("slow");
-        $("nav").hide("slow");
-        $(".menuButton").show("slow");
-    }
-});
+    $("#przycisk_kontakt").click(function () {
+        if (window.matchMedia("(orientation:landscape)").matches) {
+            $("#o_firmie").hide("slow");
+            $("#oferta").hide("slow");
+            $("#cennik").hide("slow");
+            $("#kontakt").show("slow");
+            $("#dojazd").hide("slow");
+            $("#wspolpraca").hide("slow");
+            $("nav").show("slow");
+            $(".przycisk_menu").hide("slow");
+        } else {
+            $("#o_firmie").hide("slow");
+            $("#oferta").hide("slow");
+            $("#cennik").hide("slow");
+            $("#kontakt").show("slow");
+            $("#dojazd").hide("slow");
+            $("#wspolpraca").hide("slow");
+            $("nav").hide("slow");
+            $(".przycisk_menu").show("slow");
+        }
+    });
 
-$("#driveButton").click(function () {
-    if (window.matchMedia("(orientation:landscape)").matches) {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").hide("slow");
-        $("#priceListArticle").hide("slow");
-        $("#contactArticle").hide("slow");
-        $("#driveArticle").show("slow");
-        $("#cooperativeArticle").hide("slow");
-        $("nav").show("slow");
-        $(".menuButton").hide("slow");
-    } else {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").hide("slow");
-        $("#priceListArticle").hide("slow");
-        $("#contactArticle").hide("slow");
-        $("#driveArticle").show("slow");
-        $("#cooperativeArticle").hide("slow");
-        $("nav").hide("slow");
-        $(".menuButton").show("slow");
-    }
-});
+    $("#przycisk_dojazd").click(function () {
+        if (window.matchMedia("(orientation:landscape)").matches) {
+            $("#o_firmie").hide("slow");
+            $("#oferta").hide("slow");
+            $("#cennik").hide("slow");
+            $("#kontakt").hide("slow");
+            $("#dojazd").show("slow");
+            $("#wspolpraca").hide("slow");
+            $("nav").show("slow");
+            $(".przycisk_menu").hide("slow");
+        } else {
+            $("#o_firmie").hide("slow");
+            $("#oferta").hide("slow");
+            $("#cennik").hide("slow");
+            $("#kontakt").hide("slow");
+            $("#dojazd").show("slow");
+            $("#wspolpraca").hide("slow");
+            $("nav").hide("slow");
+            $(".przycisk_menu").show("slow");
+        }
+    });
 
-$("#cooperativeButton").click(function () {
-    if (window.matchMedia("(orientation:landscape)").matches) {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").hide("slow");
-        $("#priceListArticle").hide("slow");
-        $("#contactArticle").hide("slow");
-        $("#driveArticle").hide("slow");
-        $("#cooperativeArticle").show("slow");
-        $("nav").show("slow");
-        $(".additionalButton").hide("slow");
-    } else {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").hide("slow");
-        $("#priceListArticle").hide("slow");
-        $("#contactArticle").hide("slow");
-        $("#driveArticle").hide("slow");
-        $("#cooperativeArticle").show("slow");
-        $("nav").hide("slow");
-        $(".menuButton").show("slow");
-    }
-});
+    $("#przycisk_wspolpraca").click(function () {
+        if (window.matchMedia("(orientation:landscape)").matches) {
+            $("#o_firmie").hide("slow");
+            $("#oferta").hide("slow");
+            $("#cennik").hide("slow");
+            $("#kontakt").hide("slow");
+            $("#dojazd").hide("slow");
+            $("#wspolpraca").show("slow");
+            $("nav").show("slow");
+            $(".przycisk_menu").hide("slow");
+        } else {
+            $("#o_firmie").hide("slow");
+            $("#oferta").hide("slow");
+            $("#cennik").hide("slow");
+            $("#kontakt").hide("slow");
+            $("#dojazd").hide("slow");
+            $("#wspolpraca").show("slow");
+            $("nav").hide("slow");
+            $(".przycisk_menu").show("slow");
+        }
+    });
 
-$(".menuButton").click(function () {
-    if (window.matchMedia("(orientation:landscape)").matches) {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").hide("slow");
-        $("#priceListArticle").hide("slow");
-        $("#contactArticle").hide("slow");
-        $("#driveArticle").hide("slow");
-        $("#cooperativeArticle").hide("slow");
-        $("nav").show("slow");
-        $(".menuButton").hide("slow");
-    } else {
-        $("#aboutUsArticle").hide("slow");
-        $("#offerArticle").hide("slow");
-        $("#priceListArticle").hide("slow");
-        $("#contactArticle").hide("slow");
-        $("#driveArticle").hide("slow");
-        $("#cooperativeArticle").hide("slow");
-        $("nav").show("slow");
-        $(".menuButton").hide("slow");
-    }
-});
+    $(".przycisk_menu").click(function () {
+        if (window.matchMedia("(orientation:landscape)").matches) {
+            $("#o_firmie").hide("slow");
+            $("#oferta").hide("slow");
+            $("#cennik").hide("slow");
+            $("#kontakt").hide("slow");
+            $("#dojazd").hide("slow");
+            $("#wspolpraca").hide("slow");
+            $("nav").show("slow");
+            $(".przycisk_menu").hide("slow");
+        } else {
+            $("#o_firmie").hide("slow");
+            $("#oferta").hide("slow");
+            $("#cennik").hide("slow");
+            $("#kontakt").hide("slow");
+            $("#dojazd").hide("slow");
+            $("#wspolpraca").hide("slow");
+            $("nav").show("slow");
+            $(".przycisk_menu").hide("slow");
+        }
+    });
 
 });
