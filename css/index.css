@@ -46,25 +46,25 @@ header nav {
 section {
     align-items: center;
     display: flex;
-    margin: 20px;
+    margin: 30px;
 }
 
 section ul li {
     text-align: justify;
     font-family: 'Open Sans Condensed';
     color: #000000;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 section h1 {
     text-align: justify;
     font-family: 'Open Sans Condensed';
     color: #000000;
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 20px;
 }
 
-section h2 {
+section h3 {
     text-align: justify;
     font-family: 'Open Sans Condensed';
     color: #000000;
@@ -72,11 +72,15 @@ section h2 {
     margin-bottom: 20px;
 }
 
+section h2 {
+    margin-top: 25px;
+}
+
 section p {
     text-align: justify;
     font-family: 'Open Sans Condensed';
     color: #000000;
-    margin-bottom: 20px;
+    font-size: 30px;
 }
 
 section img {
