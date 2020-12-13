@@ -10,10 +10,10 @@
    id="Capa_1"
    viewBox="0 0 5540.2479 1500"
    version="1.1"
-   sodipodi:docname="logo2.svg"
+   sodipodi:docname="logo.svg"
    width="1465.8574mm"
    height="396.875mm"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata16">
     <rdf:RDF>
@@ -37,12 +37,12 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      id="namedview12"
      showgrid="false"
      units="mm"
-     inkscape:zoom="0.5"
+     inkscape:zoom="0.17"
      inkscape:cx="1008.0618"
      inkscape:cy="84.499953"
      inkscape:window-x="-8"
@@ -52,7 +52,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0" />
   <style
      id="style2">.st0{fill:url(#SVGID_1_);}</style>
   <linearGradient
