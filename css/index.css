@@ -5,20 +5,16 @@
     font-family: 'Oswald';
     font-weight: 400;
     color: #Ff0000;
-    overflow-x: hidden;
-}
-
-html,
-body {
     background-color: #ffffff;
 }
 
 header {
     display: flex;
-    align-items: center;
-    margin: 20px;
+    /* align-items: center; */
+    /* margin: 20px; */
     background-color: #ffffff;
-    justify-content: flex-start;
+    padding: 20px;
+    /* justify-content: flex-start; */
 }
 
 header img {
@@ -29,17 +25,25 @@ header img {
 header nav {
     display: flex;
     align-items: center;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     flex: 50%;
     justify-content: flex-end;
     margin: 20px;
 }
 
 .sectionTitle h1 {
-    text-align: justify;
+    text-align: left;
     font-family: 'Open Sans Condensed';
     color: #000000;
     font-size: 60px;
+    margin: 20px;
+}
+
+.sectionAdditionalInfo h3 {
+    text-align: left;
+    font-family: 'Open Sans Condensed';
+    color: #ff0000;
+    font-size: 20px;
     margin: 20px;
 }
 
@@ -50,6 +54,26 @@ header nav {
     color: #000000;
     font-size: 20px;
     margin: 20px;
+}
+
+table {
+    width: 100%;
+    background-color: #ff0000;
+    text-align: center;
+}
+
+th p {
+    font-family: 'Open Sans Condensed';
+    color: #000000;
+    font-size: 30px;
+    /* margin: 20px; */
+}
+
+th h2 {
+    color: #ffffff;
+    background-color: #ff0000;
+    font-size: 40px;
+
 }
 
 .sectionContent {
@@ -64,27 +88,25 @@ header nav {
 }
 
 .sectionImage {
-    flex: 30%;
+    /* flex: 30%; */
     justify-content: space-around;
-}
-
-.sectionAdditionalInfo {
-    margin: 20px;
-}
-
-li {
-    text-align: justify;
-    font-family: 'Open Sans Condensed';
-    color: #000000;
-    font-size: 20px;
-    margin: 20px;
 }
 
 .sectionImage img {
-    justify-content: space-around;
+    /* justify-content: space-around; */
     width: 200px;
     height: 200px;
     margin: 20px;
+}
+
+
+li {
+    text-align: left;
+    font-family: 'Open Sans Condensed';
+    color: #000000;
+    font-size: 20px;
+    margin-left: 60px;
+    /* margin: 20px; */
 }
 
 iframe {
