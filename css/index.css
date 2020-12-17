@@ -1,14 +1,24 @@
-header {
-    align-items: center;
+@font-face {
+	font-family: 'Open Sans Condensed';
+	src: url('../ttf/Open_Sans_Condensed/OpenSansCondensed-Light.ttf');
+}
+
+body{
     background-color: #ffffff;
     box-sizing: border-box;
     color: #Ff0000;
-    display: flex;
-    font-family: 'Oswald';
-    font-weight: 400;
-    justify-content: flex-start;
+    font-family: 'Open Sans Condensed';
     margin: 20px;
     padding: 20px;
+}
+
+header {
+    /* align-items: center; */
+    /* background-color: #ffffff; */
+    /* box-sizing: border-box; */
+    /* color: #Ff0000; */
+    display: flex;
+    justify-content: flex-start;
 }
 
 header img {
