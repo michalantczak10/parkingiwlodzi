@@ -3,22 +3,8 @@
 	src: url('../ttf/Open_Sans_Condensed/OpenSansCondensed-Light.ttf');
 }
 
-body{
-    background-color: #ffffff;
-    box-sizing: border-box;
-    color: #Ff0000;
-    font-family: 'Open Sans Condensed';
-    margin: 20px;
-    padding: 20px;
-}
-
 header {
-    /* align-items: center; */
-    /* background-color: #ffffff; */
-    /* box-sizing: border-box; */
-    /* color: #Ff0000; */
     display: flex;
-    /* justify-content: flex-start; */
 }
 
 header img {
@@ -35,12 +21,12 @@ header nav {
     margin: 20px;
 }
 
-
 header nav button {
     background-color: #Ff0000;
     border: none;
     color: #ffffff;
     cursor: pointer;
+    font-family: 'Open Sans Condensed';
     font-size: 16px;
     justify-content: space-around;
     margin: 0;
@@ -49,43 +35,54 @@ header nav button {
     text-decoration: none;
 }
 
-.sectionTitle h1 {
-    text-align: left;
+main {
+    margin: 20px;
+}
+
+article h1 {
     font-family: 'Open Sans Condensed';
     color: #000000;
     font-size: 60px;
     margin: 20px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald';
-    font-weight: 400;
-    color: #Ff0000;
-    background-color: #ffffff;
+    text-align: left;
 }
 
-.sectionAdditionalInfo h3 {
+article h2 {
+    font-family: 'Open Sans Condensed';
+    color: #ff0000;
+    font-size: 40px;
+    margin: 20px;
     text-align: left;
+}
+
+article h3 {
     font-family: 'Open Sans Condensed';
     color: #ff0000;
     font-size: 20px;
     margin: 20px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald';
-    font-weight: 400;
-    color: #Ff0000;
-    background-color: #ffffff;
+    text-align: left;
 }
 
-
-.sectionContent p {
-    text-align: justify;
+article p {
     font-family: 'Open Sans Condensed';
     color: #000000;
     font-size: 20px;
     margin: 20px;
+    text-align: justify;
+}
+
+article ul li {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
+    margin: 20px;
+    text-align: justify;
+}
+
+iframe {
+    margin-top: 20px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -112,7 +109,6 @@ th p {
     font-family: 'Open Sans Condensed';
     color: #000000;
     font-size: 30px;
-    /* margin: 20px; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -138,92 +134,25 @@ th h2 {
 .sectionContent {
     align-items: center;
     display: flex;
-    margin: 20px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald';
-    font-weight: 400;
-    color: #Ff0000;
-    background-color: #ffffff;
 }
 
 .sectionText {
     flex: 70%;
-    margin: 20px;
+    margin-right: 40px;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald';
-    font-weight: 400;
     color: #Ff0000;
     background-color: #ffffff;
 }
 
 .sectionImage {
-    /* flex: 30%; */
     justify-content: space-around;
-    box-sizing: border-box;
-    margin: 0;
+    margin: 20px;
     padding: 0;
-    font-family: 'Oswald';
-    font-weight: 400;
-    color: #Ff0000;
-    background-color: #ffffff;
 }
 
 .sectionImage img {
-    /* justify-content: space-around; */
-    width: 200px;
     height: 200px;
-    margin: 20px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald';
-    font-weight: 400;
-    color: #Ff0000;
-    background-color: #ffffff;
-}
-
-
-li {
-    text-align: left;
-    font-family: 'Open Sans Condensed';
-    color: #000000;
-    font-size: 20px;
-    margin-left: 60px;
-    /* margin: 20px; */
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald';
-    font-weight: 400;
-    color: #Ff0000;
-    background-color: #ffffff;
-}
-
-iframe {
-    margin-top: 20px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald';
-    font-weight: 400;
-    color: #Ff0000;
-    background-color: #ffffff;
-}
-
-main {
-    background-color: white;
-    padding: 20px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald';
-    font-weight: 400;
-    color: #Ff0000;
-    background-color: #ffffff;
+    width: 200px;
 }
 
 
