@@ -41,6 +41,11 @@
         margin: 5px;
     }
 
+    main hr {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
     main section {
         width: 310px;
     }
@@ -50,15 +55,13 @@
     }
 
     main section h1 .mainSectionHeader1Content {
-        /* align-items: center; */
         width: 310px;
         display: flex;
-        
+
     }
 
     main section h1 .mainSectionHeader1Content .mainSectionHeader1Title {
         flex: 90%;
-        justify-content: space-around;
         color: #000000;
         font-size: 25px;
         text-align: left;
@@ -66,13 +69,9 @@
 
     main section h1 .mainSectionHeader1Content .mainSectionHeader1Image {
         flex: 10%;
-        justify-content: space-around;
-        justify-content: right;
     }
 
     .mainSectionHeader1Image img {
-        /* TO DO */
-        /* padding-top: 8px; */
         width: 30px;
         height: 30px;
     }
