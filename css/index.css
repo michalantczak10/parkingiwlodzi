@@ -9,6 +9,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    width: 100%;
 }
 
 @media (max-width: 1000px) {
@@ -20,63 +21,82 @@
 @media(max-width: 320px) {
 
     header {
-        width: 310px;
-        margin: 5px;
-    }
-
-    header section {
-        width: 310px;
-    }
-
-    header section .headerSectionLogoContent {
-        width: 310px;
-    }
-
-    header section .headerSectionLogoContent img {
-        width: 150px;
+        width: 300px;
+        margin: 10px;
     }
 
     main {
-        width: 310px;
-        margin: 5px;
+        width: 300px;
+        margin: 10px;
     }
 
-    main hr {
+    footer {
+        width: 300px;
+        margin: 10px;
+        background-color: #ff2626;
+    }
+
+    section {
+        width: 300px;
+    }
+
+    hr {
         margin-top: 5px;
         margin-bottom: 5px;
     }
 
-    main section {
-        width: 310px;
+    .headerSectionLogoContent {
+        width: 300px;
     }
 
-    main section h1 {
-        width: 310px;
+    .headerSectionLogoImage {
+        width: 150px;
     }
 
-    main section h1 .mainSectionHeader1Content {
-        width: 310px;
+    h1 {
+        width: 300px;
+    }
+
+
+    .mainSectionHeader1Content {
+        width: 300px;
         display: flex;
-
     }
 
-    main section h1 .mainSectionHeader1Content .mainSectionHeader1Title {
+    .mainSectionHeader1Title {
         flex: 90%;
         color: #000000;
         font-size: 25px;
         text-align: left;
     }
 
-    main section h1 .mainSectionHeader1Content .mainSectionHeader1Image {
+    .mainSectionHeader1Image {
         flex: 10%;
+        padding-top: 3px;
     }
 
-    .mainSectionHeader1Image img {
-        width: 30px;
-        height: 30px;
+    .mainSectionHeader2Content {
+        color: #ff0000;
+        font-size: 20px;
+        text-align: center;
     }
 
-    section h2 {
+    .mainSectionArticleParagraphContent {
+        color: #000000;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .mainSectionArticleListItemContent {
+        list-style-type: none;
+        color: #000000;
+        font-size: 14px;
+        margin: 5px;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .mainSectionDetailsHeader2Content {
         color: #ff0000;
         font-size: 20px;
         text-align: center;
@@ -89,29 +109,19 @@
         text-align: left;
     }
 
-    section p {
-        color: #000000;
-        font-size: 14px;
-        margin: 5px;
-        text-align: left;
-    }
-
-    details summary {
-        outline: 0;
-        font-size: 14px;
-    }
-
-    details summary::-webkit-details-marker {
+    summary::-webkit-details-marker {
         display: none;
     }
 
-    details summary {
+    summary {
         width: 100%;
         padding: 0.5rem 0;
         cursor: pointer;
         font-size: 14px;
         font-weight: 300;
         margin-left: 5px;
+        outline: 0;
+        font-size: 14px;
         list-style: none;
     }
 
@@ -119,7 +129,7 @@
         animation: open 0.3s ease-in-out;
     }
 
-    details summary:after {
+    summary:after {
         color: #000000;
         font-size: 14px;
         line-height: 0;
@@ -130,22 +140,11 @@
         transition: 200ms linear;
     }
 
-    details p {
+    .mainSectionDetailsParagraphContent {
         color: #000000;
         font-size: 14px;
-        margin: 5px;
         padding-top: 5px;
-        text-align: left;
-    }
-
-    section ul li {
-        list-style-type: none;
-        color: #000000;
-        font-size: 14px;
-        margin: 5px;
-        margin-left: 10px;
-        text-align: left;
-
+        text-align: justify;
     }
 
 
@@ -212,11 +211,6 @@
         font-size: 40px;
         margin: 20px;
         text-align: left;
-    }
-
-    footer {
-        background-color: #ff2626;
-
     }
 
     .sectionFooterContent {
