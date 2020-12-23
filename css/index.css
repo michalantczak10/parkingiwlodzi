@@ -60,33 +60,36 @@
         height: 30px;
         padding-top: 3px;
     }
-
-    .articleParagraph {
-        color: #000000;
-        font-size: 20px;
-        text-align: left;
-    }
-
-    .articleHeaderH2 {
-        color: #ff0000;
-        font-size: 20px;
-        text-align: center;
-    }
-
+    
     .mainSectionArticle {
         flex: 60%;
         color: #Ff0000;
         background-color: #ffffff;
     }
 
-    .articleAsideParagraph {
-        color: #000000;
-        font-size: 15px;
-        margin: 20px;
+    .mainSectionArticleHeader {
+        color: #ffffff;
+        font-size: 40px;
         text-align: left;
     }
 
-    .articleListItem {
+    .mainSectionArticleHeaderH2 {
+        color: #ff0000;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mainSectionArticleParagraph {
+        color: #000000;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .mainSectionArticleUnorderedList {
+        width: 300px;
+    }
+
+    .mainSectionArticleUnorderedListListItem {
         width: 290px;
         list-style-type: none;
         color: #000000;
@@ -95,24 +98,11 @@
         text-align: left;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-    .footer {
-        width: 300px;
-        margin: 10px;
-        background-color: #ff2626;
+    .mainSectionArticleAsideParagraph {
+        color: #000000;
+        font-size: 15px;
+        margin: 20px;
+        text-align: left;
     }
 
 
@@ -122,6 +112,16 @@
 
 
 
+
+
+
+
+
+    .footer {
+        width: 300px;
+        margin: 10px;
+        background-color: #ff2626;
+    }
 
     .mainSectionDetailsHeader2Content {
         color: #ff0000;
