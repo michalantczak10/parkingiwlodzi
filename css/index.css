@@ -70,13 +70,14 @@
     .mainSectionArticleHeader {
         color: #ffffff;
         font-size: 40px;
-        text-align: left;
     }
 
     .mainSectionArticleHeaderH2 {
         color: #ff0000;
         font-size: 20px;
         text-align: center;
+        margin-top: 15px;
+        margin-bottom: 5px;
     }
 
     .mainSectionArticleParagraph {
@@ -90,11 +91,11 @@
     }
 
     .mainSectionArticleUnorderedListListItem {
-        width: 290px;
+        width: 295px;
         list-style-type: none;
         color: #000000;
         font-size: 14px;
-        margin: 5px;
+        margin-left: 5px;
         text-align: left;
     }
 
@@ -117,10 +118,10 @@
         color: #ffffff;
         font-size: 40px;
         margin: 20px;
-        text-align: left;
+        text-align: center;
     }
 
-   .mainSectionArticleAsideParagraph {
+    .mainSectionArticleAsideParagraph {
         color: #000000;
         font-size: 15px;
         margin: 20px;
@@ -128,50 +129,34 @@
         margin-bottom: 5px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-    .footer {
-        width: 300px;
-        margin: 10px;
-        background-color: #ff2626;
+    .mainSectionDetails {
+        color: #Ff0000;
+        background-color: #ffffff;
     }
 
-    .mainSectionDetailsHeader2Content {
+    .mainSectionDetailsSummary {
+        width: 100%;
+        padding: 0.5rem 0;
+        cursor: pointer;
+        outline: 0;
+        font-size: 14px;
+        list-style: none;
+    }
+
+    .mainSectionDetailsHeader {
+        color: #ffffff;
+        font-size: 40px;
+    }
+
+    .mainSectionDetailsHeaderH2 {
         color: #ff0000;
         font-size: 20px;
         text-align: center;
-    }
-
-    section h3 {
-        color: #ff0000;
-        font-size: 15px;
-        margin: 5px;
-        text-align: left;
+        margin-top: 15px;
     }
 
     summary::-webkit-details-marker {
         display: none;
-    }
-
-    summary {
-        width: 100%;
-        padding: 0.5rem 0;
-        cursor: pointer;
-        font-size: 14px;
-        font-weight: 300;
-        margin-left: 5px;
-        outline: 0;
-        font-size: 14px;
-        list-style: none;
     }
 
     details[open] summary~* {
@@ -189,11 +174,45 @@
         transition: 200ms linear;
     }
 
-    .mainSectionDetailsParagraphContent {
+    .mainSectionDetailsParagraph {
         color: #000000;
         font-size: 14px;
-        padding-top: 5px;
+        margin-top: 5px;
         text-align: justify;
+        margin-bottom: 15px;
+    }
+
+    @keyframes open {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .footer {
+        width: 300px;
+        margin: 10px;
+        background-color: #ff2626;
+    }
+
+    section h3 {
+        color: #ff0000;
+        font-size: 15px;
+        margin: 5px;
+        text-align: left;
     }
 
     iframe {
@@ -269,15 +288,5 @@
     footer img {
         width: 100px;
         height: 100px;
-    }
-
-    @keyframes open {
-        0% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
-        }
     }
 }
