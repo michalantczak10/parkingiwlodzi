@@ -20,81 +20,108 @@
 
 @media(max-width: 320px) {
 
-    header {
+    .header {
         width: 300px;
         margin: 10px;
     }
 
-    main {
-        width: 300px;
-        margin: 10px;
-    }
-
-    footer {
-        width: 300px;
-        margin: 10px;
-        background-color: #ff2626;
-    }
-
-    section {
-        width: 300px;
-    }
-
-    hr {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    .headerSectionLogoContent {
-        width: 300px;
-    }
-
-    .headerSectionLogoImage {
+    .headerImg {
         width: 150px;
     }
 
-    h1 {
+    .main {
+        width: 300px;
+        margin: 10px;
+    }
+
+    .mainSection {
         width: 300px;
     }
 
+    .mainSectionHr {
+        margin: 0px;
+    }
 
-    .mainSectionHeader1Content {
+    .mainSectionHeader {
         width: 300px;
         display: flex;
     }
 
-    .mainSectionHeader1Title {
+    .mainSectionHeaderH1 {
         flex: 90%;
         color: #000000;
         font-size: 25px;
         text-align: left;
     }
 
-    .mainSectionHeader1Image {
+    .mainSectionHeaderImg {
         flex: 10%;
+        width: 30px;
+        height: 30px;
         padding-top: 3px;
     }
 
-    .mainSectionHeader2Content {
+    .articleParagraph {
+        color: #000000;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .articleHeaderH2 {
         color: #ff0000;
         font-size: 20px;
         text-align: center;
     }
 
-    .mainSectionArticleParagraphContent {
+    .mainSectionArticle {
+        flex: 60%;
+        color: #Ff0000;
+        background-color: #ffffff;
+    }
+
+    .articleAsideParagraph {
         color: #000000;
-        font-size: 20px;
+        font-size: 15px;
+        margin: 20px;
         text-align: left;
     }
 
-    .mainSectionArticleListItemContent {
+    .articleListItem {
+        width: 290px;
         list-style-type: none;
         color: #000000;
         font-size: 14px;
         margin: 5px;
-        margin-left: 10px;
         text-align: left;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    .footer {
+        width: 300px;
+        margin: 10px;
+        background-color: #ff2626;
+    }
+
+
+
+
+
+
+
+
 
     .mainSectionDetailsHeader2Content {
         color: #ff0000;
@@ -147,14 +174,6 @@
         text-align: justify;
     }
 
-
-    aside p {
-        color: #000000;
-        font-size: 15px;
-        margin: 20px;
-        text-align: left;
-    }
-
     iframe {
         margin: 20px;
         height: 450px;
@@ -189,12 +208,6 @@
         align-items: center;
         margin: 0px;
         display: flex;
-    }
-
-    article {
-        flex: 60%;
-        color: #Ff0000;
-        background-color: #ffffff;
     }
 
     aside {
