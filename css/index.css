@@ -262,7 +262,7 @@
     
     }
     
-    .sectionFooterContent {
+    .footerSection {
         align-items: center;
         display: flex;
     }
@@ -273,7 +273,7 @@
         margin: 5px;
     }
     
-    .image {
+    .footerSectionImg {
         flex: 10%;
         margin: 5px;
         margin-right: 0px;
