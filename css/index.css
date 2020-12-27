@@ -174,7 +174,6 @@
         margin-top: 5px;
     }
 
-
     .mainSectionDetailsP {
         color: #000000;
         font-size: 14px;
@@ -224,73 +223,82 @@
         width: 300px;
     }
 
-
-
-
-
-
-
-
-
-    section h3 {
-        color: #ff0000;
-        font-size: 15px;
-        margin: 5px;
-        text-align: left;
-    }
-
-
-
-
-
-    .sectionContent {
-        align-items: center;
-        margin: 0px;
-        display: flex;
-    }
-
-    .contact {
-        flex: 90%;
-        justify-content: space-around;
-        margin: 20px;
-    }
-
-    .image {
-        flex: 10%;
-        margin: 20px;
-        margin-right: 0px;
-        justify-content: space-around;
-    }
-
-    footer p {
-        color: #000000;
-        font-size: 25px;
-        margin: 0px;
-        text-align: justify;
-        font-weight: 700;
-    }
-
-    footer h2 {
-        color: #ffffff;
-        font-size: 25px;
-        margin-bottom: 10px;
-        text-align: justify;
-        font-weight: 700;
-    }
-
-    footer img {
-        width: 100px;
-        height: 100px;
-    }
-
     .footer {
-        width: 300px;
-        margin: 10px;
+        width: 320px;
+        margin: 0px;
         background-color: #ff2626;
     }
 
+    .footerSectionHeader {
+        width: 300px;
+        display: flex;
+    }
+
+    .footerSectionHeaderImg {
+        margin: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .footerSectionHeaderH2 {
+        color: #ffffff;
+        margin: 5px;
+        font-size: 15px;
+        width: 150px;
+        /* float: left; */
+        text-align: left;
+    }
+
+    .footerSectionHeaderP {
+        margin: 5px;
+        color: #ffffff;
+        font-size: 15px;
+        float: left;
+        /* text-align: left; */
+    }
+
+    footer {
+        background-color: #ff2626;
+    
+    }
+    
     .sectionFooterContent {
         align-items: center;
         display: flex;
     }
+    
+    .contact {
+        flex: 90%;
+        justify-content: space-around;
+        margin: 5px;
+    }
+    
+    .image {
+        flex: 10%;
+        margin: 5px;
+        margin-right: 0px;
+        justify-content: space-around;
+    }
+    
+    footer p {
+        color: #000000;
+        font-size: 15px;
+        margin: 0px;
+        text-align: justify;
+    }
+    
+    footer h2 {
+        color: #ffffff;
+        font-size: 15px;
+        margin-bottom: 5px;
+        text-align: justify;
+        /* font-weight: 700; */
+    }
+    
+    footer img {
+        width: 40px;
+        height: 40px;
+    }
+
+
 }
