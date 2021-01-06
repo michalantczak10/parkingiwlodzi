@@ -1,4 +1,4 @@
-@media(min-width: 376px) and (max-width: 414px) {
+@media(min-width: 569px) and (max-width: 667px) {
 
     @font-face {
         font-family: 'Open Sans Condensed';
@@ -16,25 +16,25 @@
 
     .header {
         margin: 0 auto;
-        width: 346px;
+        width: 539px;
     }
 
     .headerSection {
-        width: 346px;
+        width: 539px;
     }
 
     .headerSectionImg {
         padding-top: 10px;
-        width: 346px;
+        width: 539px;
     }
 
     .main {
         margin: 0 auto;
-        width: 346px;
+        width: 539px;
     }
 
     .mainSection {
-        width: 346px;
+        width: 539px;
     }
 
     .mainSectionHr {
@@ -43,7 +43,7 @@
 
     .mainSectionHeader {
         display: flex;
-        width: 346px;
+        width: 539px;
     }
 
     .mainSectionHeaderH1 {
@@ -58,15 +58,15 @@
     }
 
     .mainSectionArticle {
-        width: 346px;
+        width: 539px;
     }
 
     .mainSectionArticleAside {
-        display: none;
+        display: flex;
     }
 
     .mainSectionArticleHeader {
-        width: 346px;
+        width: 539px;
     }
 
     .mainSectionArticleHeaderH2 {
@@ -84,7 +84,7 @@
     }
 
     .mainSectionArticleUnorderedList {
-        width: 346px;
+        width: 539px;
     }
 
     .mainSectionArticleUnorderedListListItem {
@@ -94,7 +94,7 @@
         margin-left: 5px;
         padding-top: 5px;
         text-align: left;
-        width: 346px;
+        width: 539px;
     }
 
     .mainSectionArticleAside {
@@ -108,7 +108,7 @@
     }
 
     .mainSectionArticleAsideHeader {
-        width: 346px;
+        width: 539px;
     }
 
     .mainSectionArticleAsideHeaderH2 {
@@ -125,7 +125,7 @@
     }
 
     .mainSectionDetails {
-        width: 346px;
+        width: 539px;
     }
 
     .mainSectionDetails[open] summary::after {
@@ -143,6 +143,7 @@
         margin: 15px;
         outline: 0;
         width: 260px;
+        display: none;
     }
 
     .mainSectionDetailsSummary::-webkit-details-marker {
@@ -154,7 +155,7 @@
     }
 
     .mainSectionDetailsHeader {
-        width: 346px;
+        width: 539px;
     }
 
     .mainSectionDetailsHeaderH2 {
@@ -173,12 +174,12 @@
 
     .mainSectionArticleTable {
         margin-top: 15px;
-        width: 346px;
+        width: 539px;
     }
 
     .mainSectionArticleTableTr:nth-child(odd) {
         background-color: #ffa4a4;
-        width: 346px;
+        width: 539px;
     }
 
     .mainSectionArticleTableTrThHeaderH2 {
@@ -200,7 +201,7 @@
 
     .mainSectionArticleIframe {
         margin-top: 15px;
-        width: 346px;
+        width: 539px;
     }
 
     .footer {
