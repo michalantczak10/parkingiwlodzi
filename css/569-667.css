@@ -58,15 +58,13 @@
     }
 
     .mainSectionArticle {
-        width: 539px;
-    }
-
-    .mainSectionArticleAside {
         display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
     }
 
     .mainSectionArticleHeader {
-        width: 539px;
+        flex: 1 100%;
     }
 
     .mainSectionArticleHeaderH2 {
@@ -81,47 +79,60 @@
         color: #000000;
         font-size: 20px;
         text-align: justify;
+        flex: 1 100%;
+        background-color: rgb(215, 220, 250);
     }
 
     .mainSectionArticleUnorderedList {
-        width: 539px;
+        flex: 1 50%;
+        background-color: aqua;
     }
 
     .mainSectionArticleUnorderedListListItem {
         color: #000000;
         font-size: 18px;
         list-style-type: none;
-        margin-left: 5px;
+        /* margin-left: 5px; */
         padding-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
         text-align: left;
-        width: 539px;
     }
 
     .mainSectionArticleAside {
         background-color: #fdb7b7;
-        /* flex: 33.3%; */
-        justify-content: space-around;
-        margin-bottom: 25px;
-        margin-left: 60px;
-        margin-right: 25px;
-        margin-top: 25px;
+        flex: 1 30%;
     }
 
     .mainSectionArticleAsideHeader {
-        width: 539px;
+        /* width: 250px; */
     }
 
     .mainSectionArticleAsideHeaderH2 {
         font-size: 40px;
-        margin: 15px;
+        /* margin: 15px; */
+        text-align: center;
+        color: #ff0000;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         text-align: center;
     }
 
     .mainSectionArticleAsideP {
         color: #000000;
         font-size: 14px;
-        margin: 15px;
+        /* margin: 15px; */
         text-align: left;
+        /* width: 40px; */
+        color: #000000;
+        font-size: 14px;
+        /* margin-bottom: 15px; */
+        /* margin-left: 15px; */
+        padding-right: 15px;
+        padding-left: 15px;
+        text-align: justify;
+        /* flex: 1 50%; */
     }
 
     .mainSectionDetails {
@@ -174,12 +185,13 @@
 
     .mainSectionArticleTable {
         margin-top: 15px;
-        width: 539px;
+        flex: 1 50%;
+        /* width: 539px; */
     }
 
     .mainSectionArticleTableTr:nth-child(odd) {
         background-color: #ffa4a4;
-        width: 539px;
+        /* width: 539px; */
     }
 
     .mainSectionArticleTableTrThHeaderH2 {
@@ -201,7 +213,8 @@
 
     .mainSectionArticleIframe {
         margin-top: 15px;
-        width: 539px;
+        /* width: 539px; */
+        flex: 1 50%;
     }
 
     .footer {
