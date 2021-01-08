@@ -101,7 +101,7 @@
 
     .mainSectionArticleAside {
         background-color: #fdb7b7;
-        flex: 1 30%;
+        flex: 1 40%;
     }
 
     .mainSectionArticleAsideHeader {
@@ -166,7 +166,7 @@
     }
 
     .mainSectionDetailsHeader {
-        width: 539px;
+        /* width: 539px; */
     }
 
     .mainSectionDetailsHeaderH2 {
