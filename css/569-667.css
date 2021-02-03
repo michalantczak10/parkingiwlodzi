@@ -37,7 +37,7 @@
         width: 539px;
     }
 
-    .mainSection {
+    .mainSectionOffer {
         width: 539px;
     }
 
@@ -45,7 +45,7 @@
         margin: 0px;
     }
 
-    .mainSectionHr {
+    .mainSectionOfferHr {
         margin: 0px;
     }
 
@@ -54,12 +54,12 @@
         width: 539px;
     }
 
-    .mainSectionHeader {
+    .mainSectionOfferHeader {
         display: flex;
         width: 539px;
     }
 
-    .mainSectionHeaderH1 {
+    .mainSectionOfferHeaderH1 {
         font-size: 25px;
         text-align: left;
     }
@@ -69,7 +69,7 @@
         text-align: left;
     }
 
-    .mainSectionHeaderImg {
+    .mainSectionOfferHeaderImg {
         height: 30px;
         padding-top: 3px;
         width: 30px;
@@ -88,7 +88,7 @@
         /* width: 539px; */
     }
 
-    .mainSectionArticle {
+    .mainSectionOfferArticle {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 15px;
@@ -99,7 +99,7 @@
         flex: 1 100%;
     }
 
-    .mainSectionArticleHeader {
+    .mainSectionOfferArticleHeader {
         flex: 1 100%;
     }
 
@@ -111,7 +111,7 @@
         text-align: left;
     }
 
-    .mainSectionArticleHeaderH2 {
+    .mainSectionOfferArticleHeaderH2 {
         color: #ff0000;
         font-size: 20px;
         margin-bottom: 15px;
@@ -129,7 +129,7 @@
         padding-right: 15px;
     }
 
-    .mainSectionArticleP {
+    .mainSectionOfferArticleP {
         color: #000000;
         font-size: 20px;
         text-align: justify;
@@ -139,7 +139,7 @@
         padding-right: 15px;
     }
 
-    .mainSectionArticleUnorderedList {
+    .mainSectionOfferArticleUnorderedList {
         flex: 1 50%;
         background-color: aqua;
     }
@@ -149,7 +149,7 @@
         background-color: aqua;
     }
 
-    .mainSectionArticleUnorderedListListItem {
+    .mainSectionOfferArticleUnorderedListListItem {
         color: #000000;
         font-size: 18px;
         list-style-type: none;
@@ -171,7 +171,7 @@
         text-align: left;
     }
 
-    .mainSectionArticleAside {
+    .mainSectionOfferArticleAside {
         background-color: #fdb7b7;
         flex: 1 50%;
         padding-right: 15px;
@@ -185,7 +185,7 @@
         padding-left: 15px;
     }
 
-    .mainSectionArticleAsideHeader {
+    .mainSectionOfferArticleAsideHeader {
         /* width: 250px; */
     }
 
@@ -193,7 +193,7 @@
         /* width: 250px; */
     }
 
-    .mainSectionArticleAsideHeaderH2 {
+    .mainSectionOfferArticleAsideHeaderH2 {
         font-size: 40px;
         /* margin: 15px; */
         text-align: center;
@@ -215,7 +215,7 @@
         text-align: center;
     }
 
-    .mainSectionArticleAsideP {
+    .mainSectionOfferArticleAsideP {
         color: #000000;
         font-size: 14px;
         /* margin: 15px; */
@@ -247,15 +247,15 @@
         flex: 1 40%;
     }
 
-    .mainSectionDetails {
-        width: 539px;
-    }
-
     .mainSectionOfferDetails {
         width: 539px;
     }
 
-    .mainSectionDetails[open] summary::after {
+    .mainSectionOfferOfferDetails {
+        width: 539px;
+    }
+
+    .mainSectionOfferDetails[open] summary::after {
         content: attr(data-open);
     }
 
@@ -263,7 +263,7 @@
         content: attr(data-open);
     }
 
-    .mainSectionDetails:not([open]) summary::after {
+    .mainSectionOfferDetails:not([open]) summary::after {
         content: attr(data-close);
     }
 
@@ -271,7 +271,7 @@
         content: attr(data-close);
     }
 
-    .mainSectionDetailsSummary {
+    .mainSectionOfferDetailsSummary {
         cursor: pointer;
         font-size: 16px;
         list-style: none;
@@ -291,36 +291,16 @@
         display: none;
     }
 
-    .mainSectionDetailsSummary::-webkit-details-marker {
+    .mainSectionOfferDetailsSummary::-webkit-details-marker {
         display: none;
-    }
-
-    .mainSectionOffernDetailsSummary::-webkit-details-marker {
-        display: none;
-    }
-
-    .mainSectionDetailsSummary:after {
-        color: #ff2626;
     }
 
     .mainSectionOfferDetailsSummary:after {
         color: #ff2626;
     }
 
-    .mainSectionDetailsHeader {
-        /* width: 539px; */
-    }
-
     .mainSectionOfferDetailsHeader {
         /* width: 539px; */
-    }
-
-    .mainSectionDetailsHeaderH2 {
-        color: #ff0000;
-        font-size: 20px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        text-align: center;
     }
 
     .mainSectionOfferDetailsHeaderH2 {
@@ -331,31 +311,25 @@
         text-align: center;
     }
 
-    .mainSectionDetailsP {
-        font-size: 14px;
-        margin-bottom: 15px;
-        text-align: justify;
-    }
-
     .mainSectionOfferDetailsP {
         font-size: 14px;
         margin-bottom: 15px;
         text-align: justify;
     }
 
-    .mainSectionArticleTable {
+    .mainSectionOfferArticleTable {
         margin-top: 15px;
         flex: 1 50%;
         padding-right: 15px;
         /* width: 539px; */
     }
 
-    .mainSectionArticleTableTr:nth-child(odd) {
+    .mainSectionOfferArticleTableTr:nth-child(odd) {
         background-color: #ffa4a4;
         /* width: 539px; */
     }
 
-    .mainSectionArticleTableTrThHeaderH2 {
+    .mainSectionOfferArticleTableTrThHeaderH2 {
         background-color: #ff0000;
         color: #ffffff;
         font-size: 15px;
@@ -364,7 +338,7 @@
         text-align: center;
     }
 
-    .mainSectionArticleTableTrTdP {
+    .mainSectionOfferArticleTableTrTdP {
         color: #000000;
         font-size: 10px;
         margin: 0px;
@@ -372,7 +346,7 @@
         text-align: center;
     }
 
-    .mainSectionArticleIframe {
+    .mainSectionOfferArticleIframe {
         margin-top: 15px;
         /* width: 539px; */
         flex: 1 30%;
