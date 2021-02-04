@@ -203,79 +203,6 @@
         width: 290px;
     }
 
-    .footer {
-        background-color: #ff2626;
-        margin: 0 auto;
-        width: 320px;
-    }
-
-    .footerSection {
-        align-items: center;
-        display: flex;
-        margin-left: 15px;
-        margin-right: 15px;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        width: 290px;
-    }
-
-    .footerSectionHeader {
-        justify-content: space-around;
-        margin: 5px;
-    }
-
-    .footerSectionImg {
-        height: 35px;
-        justify-content: space-around;
-        width: 35px;
-    }
-
-    .footerSectionHeaderP {
-        color: #f5f5dc;
-        font-size: 15px;
-    }
-
-    .footerSectionHeaderH2 {
-        color: #ffffff;
-        font-size: 15px;
-    }
-
-
-
-
-    @font-face {
-        font-family: 'Open Sans Condensed';
-        src: url('../ttf/Open_Sans_Condensed/OpenSansCondensed-Light.ttf');
-    }
-
-    * {
-        box-sizing: border-box;
-        font-family: 'Open Sans Condensed';
-        font-weight: 400;
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-    }
-
-    .header {
-        margin: 0 auto;
-        width: 290px;
-    }
-
-    .headerSectionLogo {
-        width: 290px;
-    }
-
-    .headerSectionLogoImg {
-        padding-top: 10px;
-        width: 290px;
-    }
-
-    .main {
-        margin: 0 auto;
-        width: 290px;
-    }
-
     .mainSectionPriceList {
         width: 290px;
     }
@@ -443,79 +370,6 @@
 
     .mainSectionPriceListArticleIframe {
         margin-top: 15px;
-        width: 290px;
-    }
-
-    .footer {
-        background-color: #ff2626;
-        margin: 0 auto;
-        width: 320px;
-    }
-
-    .footerSection {
-        align-items: center;
-        display: flex;
-        margin-left: 15px;
-        margin-right: 15px;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        width: 290px;
-    }
-
-    .footerSectionHeader {
-        justify-content: space-around;
-        margin: 5px;
-    }
-
-    .footerSectionImg {
-        height: 35px;
-        justify-content: space-around;
-        width: 35px;
-    }
-
-    .footerSectionHeaderP {
-        color: #f5f5dc;
-        font-size: 15px;
-    }
-
-    .footerSectionHeaderH2 {
-        color: #ffffff;
-        font-size: 15px;
-    }
-
-
-
-
-    @font-face {
-        font-family: 'Open Sans Condensed';
-        src: url('../ttf/Open_Sans_Condensed/OpenSansCondensed-Light.ttf');
-    }
-
-    * {
-        box-sizing: border-box;
-        font-family: 'Open Sans Condensed';
-        font-weight: 400;
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-    }
-
-    .header {
-        margin: 0 auto;
-        width: 290px;
-    }
-
-    .headerSectionLogo {
-        width: 290px;
-    }
-
-    .headerSectionLogoImg {
-        padding-top: 10px;
-        width: 290px;
-    }
-
-    .main {
-        margin: 0 auto;
         width: 290px;
     }
 
@@ -688,79 +542,7 @@
         margin-top: 15px;
         width: 290px;
     }
-
-    .footer {
-        background-color: #ff2626;
-        margin: 0 auto;
-        width: 320px;
-    }
-
-    .footerSectionTelephone {
-        align-items: center;
-        display: flex;
-        margin-left: 15px;
-        margin-right: 15px;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        width: 290px;
-    }
-
-    .footerSectionTelephoneHeader {
-        justify-content: space-around;
-        margin: 5px;
-    }
-
-    .footerSectionTelephoneImg {
-        height: 35px;
-        justify-content: space-around;
-        width: 35px;
-    }
-
-    .footerSectionTelephoneHeaderP {
-        color: #f5f5dc;
-        font-size: 15px;
-    }
-
-    .footerSectionTelephoneHeaderH2 {
-        color: #ffffff;
-        font-size: 15px;
-    }
-
-
-
-    @font-face {
-        font-family: 'Open Sans Condensed';
-        src: url('../ttf/Open_Sans_Condensed/OpenSansCondensed-Light.ttf');
-    }
-
-    * {
-        box-sizing: border-box;
-        font-family: 'Open Sans Condensed';
-        font-weight: 400;
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-    }
-
-    .header {
-        margin: 0 auto;
-        width: 290px;
-    }
-
-    .headerSectionLogo {
-        width: 290px;
-    }
-
-    .headerSectionLogoImg {
-        padding-top: 10px;
-        width: 290px;
-    }
-
-    .main {
-        margin: 0 auto;
-        width: 290px;
-    }
-
+    
     .mainSectionCooperate {
         width: 290px;
     }
@@ -928,80 +710,6 @@
 
     .mainSectionCooperateArticleIframe {
         margin-top: 15px;
-        width: 290px;
-    }
-
-    .footer {
-        background-color: #ff2626;
-        margin: 0 auto;
-        width: 320px;
-    }
-
-    .footerSectionEmail {
-        align-items: center;
-        display: flex;
-        margin-left: 15px;
-        margin-right: 15px;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        width: 290px;
-    }
-
-    .footerSectionEmailHeader {
-        justify-content: space-around;
-        margin: 5px;
-    }
-
-    .footerSectionEmailImg {
-        height: 35px;
-        justify-content: space-around;
-        width: 35px;
-    }
-
-    .footerSectionEmailHeaderP {
-        color: #f5f5dc;
-        font-size: 15px;
-    }
-
-    .footerSectionEmailHeaderH2 {
-        color: #ffffff;
-        font-size: 15px;
-    }
-
-
-
-
-
-    @font-face {
-        font-family: 'Open Sans Condensed';
-        src: url('../ttf/Open_Sans_Condensed/OpenSansCondensed-Light.ttf');
-    }
-
-    * {
-        box-sizing: border-box;
-        font-family: 'Open Sans Condensed';
-        font-weight: 400;
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-    }
-
-    .header {
-        margin: 0 auto;
-        width: 290px;
-    }
-
-    .headerSectionLogo {
-        width: 290px;
-    }
-
-    .headerSectionLogoImg {
-        padding-top: 10px;
-        width: 290px;
-    }
-
-    .main {
-        margin: 0 auto;
         width: 290px;
     }
 
@@ -1179,6 +887,69 @@
         background-color: #ff2626;
         margin: 0 auto;
         width: 320px;
+    }
+
+    .footerSectionTelephone {
+        align-items: center;
+        display: flex;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        width: 290px;
+    }
+
+    .footerSectionTelephoneHeader {
+        justify-content: space-around;
+        margin: 5px;
+    }
+
+    .footerSectionTelephoneImg {
+        height: 35px;
+        justify-content: space-around;
+        width: 35px;
+    }
+
+    .footerSectionTelephoneHeaderP {
+        color: #f5f5dc;
+        font-size: 15px;
+    }
+
+    .footerSectionTelephoneHeaderH2 {
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+
+    .footerSectionEmail {
+        align-items: center;
+        display: flex;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        width: 290px;
+    }
+
+    .footerSectionEmailHeader {
+        justify-content: space-around;
+        margin: 5px;
+    }
+
+    .footerSectionEmailImg {
+        height: 35px;
+        justify-content: space-around;
+        width: 35px;
+    }
+
+    .footerSectionEmailHeaderP {
+        color: #f5f5dc;
+        font-size: 15px;
+    }
+
+    .footerSectionEmailHeaderH2 {
+        color: #ffffff;
+        font-size: 15px;
     }
 
     .footerSectionAddress {
