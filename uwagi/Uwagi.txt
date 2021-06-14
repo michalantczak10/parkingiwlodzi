@@ -1,0 +1,5 @@
+Nazwa firmy: brak konsekwencji w konwencji pisania nazwy
+	logo: HYDROMAR Sp. z o.o.
+	strona główna: Hydromar
+
+Slidebar: tylko jednen slajd
